@@ -1,8 +1,32 @@
 body{
-    background-image: url("images/image.png");
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     /* width: 96%; */
     min-height: 99vh;  
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+h1{
+    padding-top: 50px; 
+    color: rgb(248, 165, 10);
+}
+
+button{
+    color: whitesmoke;
+    background-color: rgb(248, 165, 10);
+    padding: 10px 20px;
+    font-size: larger;
+    border: 2px solid whitesmoke;
+    border-radius: 39px;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: rgb(248, 165, 10);
+    border: 2px solid rgb(248, 165, 10);
+    
 }
