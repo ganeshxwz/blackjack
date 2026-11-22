@@ -18,8 +18,8 @@ function startgame(){
 }
 
 function render(){
-    let (i=0,i<sum.length,i++){} //
-        sumEl.textContent = sum[i]
+    // let (i=0,i<sum.length,i++){} //
+    //     sumEl.textContent = sum[i]
     
 }
 
