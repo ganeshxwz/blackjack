@@ -5,21 +5,21 @@ let sumEl = document.getElementById("sum-el")
 let count = 0 ;
 let firstcard =0
 let secondcard =0
-let sum = []
+let sum = 0;
+let cards = []
 
 function startgame(){
     
     let firstcard = random()
     let secondcard = random()
     sum.push(firstcard+secondcard)
-    cardsEl.textContent += firstcard + " " + secondcard
-  render()
+    render()
     
 }
 
 function render(){
-    // let (i=0,i<sum.length,i++){} //
-    //     sumEl.textContent = sum[i]
+    cardsEl.textContent += firstcard + " " + secondcard 
+  
     
 }
 
