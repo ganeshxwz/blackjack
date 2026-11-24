@@ -13,11 +13,18 @@ let hasjackpot = false
 function startgame(){
     
    isalive = true
+   cards.push(firstcard,secondcard)
+   sum = firstcard + secondcard
     render()
     
 }
 
+function newcard(){
+    
+}
+
 function render(){
+    if (isalive === true & )
     cardsEl.textContent += firstcard + " " + secondcard 
   
     
