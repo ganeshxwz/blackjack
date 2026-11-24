@@ -7,10 +7,12 @@ let firstcard = random()
 let secondcard = random()
 let sum = 0;
 let cards = []
+let isalive = false
+let hasjackpot = false
 
 function startgame(){
     
-   
+   isalive = true
     render()
     
 }
